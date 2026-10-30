@@ -15,7 +15,7 @@ export const profileData: Profile = {
     'Rather than simply following tutorials, I learn best by building complete projects from scratch—running into edge cases, debugging tricky state bugs, and researching how to make interfaces accessible, responsive, and maintainable.',
     'I am currently looking for an entry-level software engineering or frontend developer role where I can contribute to real-world products, learn from experienced engineers, and continue growing my technical foundation.'
   ],
-  email: 'alex.rivera.dev@placeholder.domain',
+  email: 'annaanimesh651@gmail.com',
   github: 'https://github.com/placeholder-developer',
   linkedin: 'https://linkedin.com/in/placeholder-developer',
   resumeUrl: '/resume.pdf',

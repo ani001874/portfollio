@@ -13,8 +13,8 @@ import { Button } from '../components/ui/Button';
 export const AboutPage: React.FC = () => {
   return (
     <PageContainer
-      title="About & Learning Journey — Alex Rivera"
-      description="About Alex Rivera: developer journey, educational foundation, problem-solving approach, and active learning areas."
+      title="About & Learning Journey — Animesh Mahato"
+      description="About Animesh Mahato: developer journey, educational foundation, problem-solving approach, and active learning areas."
     >
       {/* Header */}
       <div className="pt-12 sm:pt-20 pb-12 border-b border-surface-border">

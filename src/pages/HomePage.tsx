@@ -19,8 +19,8 @@ export const HomePage: React.FC = () => {
 
   return (
     <PageContainer
-      title="Alex Rivera — Frontend Developer & Aspiring Software Engineer"
-      description="Portfolio of Alex Rivera, an entry-level software engineer and frontend developer specializing in React, TypeScript, and modern web applications."
+      title="Animesh Mahato — Frontend Developer & Aspiring Software Engineer"
+      description="Portfolio of Animesh Mahato, an entry-level software engineer and frontend developer specializing in React, TypeScript, and modern web applications."
     >
       {/* 01 // HERO */}
       <Hero />

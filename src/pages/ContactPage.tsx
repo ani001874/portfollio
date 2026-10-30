@@ -7,8 +7,8 @@ import { MessageSquare, Sparkles, Terminal } from 'lucide-react';
 export const ContactPage: React.FC = () => {
   return (
     <PageContainer
-      title="Contact — Alex Rivera"
-      description="Get in touch with Alex Rivera for entry-level frontend and software engineering opportunities."
+      title="Contact — Animesh Mahato"
+      description="Get in touch with Animesh Mahato for entry-level frontend and software engineering opportunities."
     >
       {/* Header */}
       <div className="pt-12 sm:pt-20 pb-12 border-b border-surface-border">

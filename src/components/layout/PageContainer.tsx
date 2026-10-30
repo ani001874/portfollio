@@ -15,9 +15,9 @@ export const PageContainer: React.FC<PageContainerProps> = ({
 }) => {
   useEffect(() => {
     if (title) {
-      document.title = `${title} — Alex Rivera`;
+      document.title = `${title} — Animesh Mahato`;
     } else {
-      document.title = 'Alex Rivera — Frontend Developer & Aspiring Software Engineer';
+      document.title = 'Animesh Mahato — Frontend Developer & Aspiring Software Engineer';
     }
 
     if (description) {

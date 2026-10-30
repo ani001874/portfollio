@@ -6,7 +6,7 @@ export const educationData: Education[] = [
     degree: 'Bachelor of Science in Computer Science',
     institution: 'State University of Technology (Placeholder)',
     location: 'City, State',
-    year: '2020 — 2024 (Recent Graduate)',
+    year: '2024-2027 (Persuing)',
     description: 'Focused on core computing fundamentals, algorithmic problem solving, software engineering principles, and full-stack web technologies.',
     relevantCoursework: [
       'Data Structures & Algorithms',

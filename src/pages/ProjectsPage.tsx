@@ -10,8 +10,8 @@ export const ProjectsPage: React.FC = () => {
 
   return (
     <PageContainer
-      title="Projects — Alex Rivera"
-      description="Personal and academic web engineering projects built with React, TypeScript, and modern web technologies by Alex Rivera."
+      title="Projects — Animesh Mahato"
+      description="Personal and academic web engineering projects built with React, TypeScript, and modern web technologies by Animesh Mahato."
     >
       {/* Header */}
       <div className="pt-12 sm:pt-20 pb-12 border-b border-surface-border">
