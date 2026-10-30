@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-syntax" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d"/>
+      <stop offset="100%" stop-color="#080a0f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-syntax)"/>
+
+  <!-- Window Frame -->
+  <rect x="35" y="30" width="730" height="390" rx="8" fill="#0b0e14" stroke="rgba(255,255,255,0.1)"/>
+
+  <!-- Header -->
+  <rect x="35" y="30" width="730" height="40" rx="8" fill="#131722"/>
+  <rect x="35" y="65" width="730" height="5" fill="#131722"/>
+  <circle cx="58" cy="50" r="4" fill="#ef4444" opacity="0.8"/>
+  <circle cx="73" cy="50" r="4" fill="#eab308" opacity="0.8"/>
+  <circle cx="88" cy="50" r="4" fill="#22c55e" opacity="0.8"/>
+  <text x="115" y="54" fill="#9ca3af" font-family="'JetBrains Mono', monospace" font-size="11">SYNTAX_FLOW // SNIPPET ENGINE (LOCAL STORAGE ACTIVE)</text>
+  <rect x="630" y="40" width="115" height="20" rx="3" fill="#1b2234"/>
+  <text x="640" y="54" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">COPIED TO CLIPBOARD</text>
+
+  <!-- Left: Snippets Sidebar -->
+  <rect x="55" y="85" width="200" height="315" rx="4" fill="#0f121a" stroke="rgba(255,255,255,0.06)"/>
+  <text x="70" y="112" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold">SAVED SNIPPETS (12)</text>
+  <line x1="70" y1="122" x2="240" y2="122" stroke="rgba(255,255,255,0.06)"/>
+
+  <rect x="65" y="132" width="180" height="45" rx="3" fill="#161c28" stroke="#38bdf8" stroke-width="0.8"/>
+  <text x="75" y="150" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold">useDebounceHook.ts</text>
+  <text x="75" y="166" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="9">TypeScript · React Hooks</text>
+
+  <rect x="65" y="185" width="180" height="45" rx="3" fill="#121620"/>
+  <text x="75" y="203" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="10">binarySearch.py</text>
+  <text x="75" y="219" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="9">Python · Algorithms</text>
+
+  <rect x="65" y="238" width="180" height="45" rx="3" fill="#121620"/>
+  <text x="75" y="256" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="10">docker-compose.yml</text>
+  <text x="75" y="272" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="9">Docker · PostgreSQL</text>
+
+  <!-- Right: Code Viewer -->
+  <rect x="270" y="85" width="475" height="315" rx="4" fill="#080a0f" stroke="rgba(255,255,255,0.06)"/>
+  
+  <text x="290" y="115" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11">import</text>
+  <text x="340" y="115" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">{ useState, useEffect } from &apos;react&apos;;</text>
+
+  <text x="290" y="145" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="11">// Reusable generic debounce hook</text>
+  <text x="290" y="165" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11">export function</text>
+  <text x="405" y="165" fill="#eab308" font-family="'JetBrains Mono', monospace" font-size="11">useDebounce&lt;T&gt;</text>
+  <text x="515" y="165" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">(value: T, delay: number): T {</text>
+
+  <text x="310" y="190" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11">  const</text>
+  <text x="360" y="190" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">[debounced, setDebounced] = useState(value);</text>
+
+  <text x="310" y="220" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11">  useEffect</text>
+  <text x="385" y="220" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">(() =&gt; {</text>
+
+  <text x="330" y="245" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11">    const</text>
+  <text x="380" y="245" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">handler = setTimeout(() =&gt; setDebounced(value), delay);</text>
+
+  <text x="330" y="270" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11">    return</text>
+  <text x="385" y="270" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">() =&gt; clearTimeout(handler);</text>
+
+  <text x="310" y="295" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">  }, [value, delay]);</text>
+
+  <text x="310" y="325" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11">  return</text>
+  <text x="360" y="325" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">debounced;</text>
+
+  <text x="290" y="350" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11">}</text>
+
+  <!-- Copy Button Tag -->
+  <rect x="635" y="95" width="95" height="24" rx="3" fill="#1e2538" stroke="#38bdf8" stroke-width="0.8"/>
+  <text x="645" y="111" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">✓ COPIED</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-aura" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d"/>
+      <stop offset="100%" stop-color="#080a0f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-aura)"/>
+
+  <!-- Window Frame -->
+  <rect x="35" y="30" width="730" height="390" rx="8" fill="#0f121b" stroke="rgba(255,255,255,0.1)"/>
+
+  <!-- Header -->
+  <rect x="35" y="30" width="730" height="40" rx="8" fill="#141824"/>
+  <rect x="35" y="65" width="730" height="5" fill="#141824"/>
+  <circle cx="58" cy="50" r="4" fill="#38bdf8"/>
+  <text x="75" y="54" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold">AURA // ACCESSIBLE STOREFRONT (CLIENT REACT)</text>
+  <rect x="620" y="40" width="125" height="20" rx="3" fill="#1f2438"/>
+  <text x="630" y="54" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">CART: 3 ITEMS ($142)</text>
+
+  <!-- Left: Filter Sidebar -->
+  <rect x="55" y="85" width="170" height="315" rx="4" fill="#111520" stroke="rgba(255,255,255,0.06)"/>
+  <text x="70" y="112" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold">FACETED FILTERS</text>
+  <line x1="70" y1="122" x2="210" y2="122" stroke="rgba(255,255,255,0.06)"/>
+
+  <text x="70" y="145" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">● All Products (24)</text>
+  <text x="70" y="168" fill="#9ca3af" font-family="'JetBrains Mono', monospace" font-size="10">○ Audio &amp; Sound (8)</text>
+  <text x="70" y="191" fill="#9ca3af" font-family="'JetBrains Mono', monospace" font-size="10">○ Ergonomics (6)</text>
+  <text x="70" y="214" fill="#9ca3af" font-family="'JetBrains Mono', monospace" font-size="10">○ Desk Accessories (10)</text>
+
+  <text x="70" y="250" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold">PRICE THRESHOLD</text>
+  <rect x="70" y="265" width="140" height="4" rx="2" fill="#1e2438"/>
+  <rect x="70" y="265" width="90" height="4" rx="2" fill="#38bdf8"/>
+  <circle cx="160" cy="267" r="5" fill="#38bdf8"/>
+  <text x="70" y="285" fill="#f3f4f6" font-family="'JetBrains Mono', monospace" font-size="9">&lt; $250.00</text>
+
+  <rect x="70" y="325" width="140" height="50" rx="4" fill="#171c2b"/>
+  <text x="80" y="345" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="9">MEMOIZED FILTER</text>
+  <text x="80" y="362" fill="#22c55e" font-family="'JetBrains Mono', monospace" font-size="9">Latency: 1.2ms</text>
+
+  <!-- Right: Products Grid -->
+  <rect x="245" y="85" width="500" height="315" rx="4" fill="#111520" stroke="rgba(255,255,255,0.06)"/>
+
+  <!-- Product 1 -->
+  <rect x="265" y="105" width="145" height="135" rx="4" fill="#161b28" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="275" y="115" width="125" height="60" rx="3" fill="#1f2538"/>
+  <text x="320" y="150" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="9">[PHOTO]</text>
+  <text x="275" y="195" fill="#f3f4f6" font-family="Inter, sans-serif" font-size="11" font-weight="bold">Studio Headphones</text>
+  <text x="275" y="212" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">$129.00</text>
+  <rect x="365" y="200" width="35" height="18" rx="2" fill="#38bdf8"/>
+  <text x="373" y="213" fill="#090a0f" font-family="Inter, sans-serif" font-size="9" font-weight="bold">+ADD</text>
+
+  <!-- Product 2 -->
+  <rect x="425" y="105" width="145" height="135" rx="4" fill="#161b28" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="435" y="115" width="125" height="60" rx="3" fill="#1f2538"/>
+  <text x="480" y="150" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="9">[PHOTO]</text>
+  <text x="435" y="195" fill="#f3f4f6" font-family="Inter, sans-serif" font-size="11" font-weight="bold">Mechanical Board</text>
+  <text x="435" y="212" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">$89.00</text>
+  <rect x="525" y="200" width="35" height="18" rx="2" fill="#38bdf8"/>
+  <text x="533" y="213" fill="#090a0f" font-family="Inter, sans-serif" font-size="9" font-weight="bold">+ADD</text>
+
+  <!-- Product 3 -->
+  <rect x="585" y="105" width="145" height="135" rx="4" fill="#161b28" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="595" y="115" width="125" height="60" rx="3" fill="#1f2538"/>
+  <text x="640" y="150" fill="#6b7280" font-family="'JetBrains Mono', monospace" font-size="9">[PHOTO]</text>
+  <text x="595" y="195" fill="#f3f4f6" font-family="Inter, sans-serif" font-size="11" font-weight="bold">Desk Mat XL</text>
+  <text x="595" y="212" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">$34.00</text>
+  <rect x="685" y="200" width="35" height="18" rx="2" fill="#38bdf8"/>
+  <text x="693" y="213" fill="#090a0f" font-family="Inter, sans-serif" font-size="9" font-weight="bold">+ADD</text>
+
+  <!-- Bottom Notification Bar -->
+  <rect x="265" y="260" width="465" height="120" rx="4" fill="#141824" stroke="rgba(255,255,255,0.06)"/>
+  <text x="285" y="285" fill="#9ca3af" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold">ACCESSIBILITY CHECKLIST // WCAG 2.1 AA</text>
+  <text x="285" y="310" fill="#22c55e" font-family="'JetBrains Mono', monospace" font-size="10">✓ Visible focus indicators on all interactive elements</text>
+  <text x="285" y="330" fill="#22c55e" font-family="'JetBrains Mono', monospace" font-size="10">✓ Keyboard drawer trap with Escape key dismissal</text>
+  <text x="285" y="350" fill="#22c55e" font-family="'JetBrains Mono', monospace" font-size="10">✓ Screen reader aria-live announcements for cart mutations</text>
+</svg>
